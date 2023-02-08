@@ -1,6 +1,6 @@
 import sys
 import threading
-import tkinker as tk
+import tkinter as tk
 
 import speech_recognition
 import pyttsx3 as tts
@@ -56,4 +56,6 @@ class Assistant:
             except:
                 self.lable.config(fg="black")
                 continue
+
+Assistant()
     
