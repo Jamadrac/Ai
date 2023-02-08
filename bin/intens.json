@@ -1,0 +1,41 @@
+{
+    "intents": [
+        {
+            "tag":"greeting",
+            "patterns" : [
+                "hi", 
+                "hey",
+                 "whats up",
+                  "hey how are you doing"
+            ],
+            "response":[
+                "hey sir",
+                "what can i do  for you"
+            ]
+        },
+        {
+            "tag":"goodbye",
+            "patterns" : [
+                "bye", 
+                "see you later",
+                 "goodbye"
+            ],
+            "response":[
+                "bye sir",
+                "have a great day"
+            ]
+        },
+        {
+            "tag":"thanks",
+            "patterns" : [
+                "thanks", 
+                "thank you",
+                 "thx"
+            ],
+            "response":[
+                "You're welcome sir",
+                "No problem, happy to help"
+            ]
+        }
+    ]
+}
