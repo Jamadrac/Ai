@@ -26,7 +26,8 @@ class Assistant:
 
     # if the response is not found 
     def create_file(self):
-        pass
+        with open("somefile.txt2","w") as f:
+            f.write("HELLO WORLD")
 
     def run_assistant(self):
         while True:
